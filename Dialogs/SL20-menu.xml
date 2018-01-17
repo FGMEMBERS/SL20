@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<PropertyList>
+	<default>
+		<menu n="3">
+			<item n="0">
+				<name>autopilot</name>
+				<label>Autopilot Settings</label>
+				<binding>
+					<command>dialog-show</command>
+					<dialog-name>autopilot-neu</dialog-name>
+				</binding>
+			</item>
+		</menu>
+		<menu n="5">
+			<item n="4">
+				<name>fuel-and-payload</name>
+				<binding>
+					<command>nasal</command>
+					<script>SL20.showWeightDialogZep();</script>
+				</binding>
+			</item>
+		</menu>
+		<menu n="100">
+			<label>SL20</label>
+			<item>
+				<label>About</label>
+				<binding>
+					<command>nasal</command>
+					<script>SL20.about();</script>
+				</binding>
+			</item>
+			<item>
+				<label>Weather Report</label>
+				<binding>
+					<command>dialog-show</command>
+					<dialog-name>weather-report</dialog-name>
+				</binding>
+			</item>
+			<item>
+				<label>Pushback</label>
+				<name>pushback</name>
+				<binding>
+					<command>dialog-show</command>
+					<dialog-name>pushback</dialog-name>
+				</binding>
+			</item>
+			<item>
+				<label>Refill Equipment</label>
+				<name>refillEQ</name>
+				<binding>
+					<command>nasal</command>
+					<script>SL20.reinitWeights();</script>
+				</binding>
+			</item>
+			<item>
+				<label>Select Livery</label>
+				<binding>
+					<command>nasal</command>
+					<script>aircraft.livery.dialog.toggle();</script>
+				</binding>
+			</item>
+		</menu>
+	</default>
+</PropertyList>

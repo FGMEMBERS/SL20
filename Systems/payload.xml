@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!--
+Zeppelin "L30" airship for FlightGear.
+Copyright (C) 2017  Franz Schmid  (Franz.Schmid(at)altmuehlnet.de)
+
+Copyright (C) 2010 - 2016  Anders Gidenstam  (anders(at)gidenstam.org)
+This file is licensed under the GPL license version 2 or later.
+-->
+<PropertyList>
+  <weight>
+      <name>Front Bombrack</name>
+	  <weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[23]"/>
+      <selected>Bombs 100 kg</selected>
+      <opt><name>none</name><lbs>0</lbs></opt>
+      <opt><name>Bombs 100 kg</name><lbs>1763.7</lbs></opt>
+  </weight>
+  <weight>
+      <name>Middle Bombrack</name>
+	  <weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[24]"/>
+      <selected>Bombs 100 kg</selected>
+      <opt><name>none</name><lbs>0</lbs></opt>
+      <opt><name>Bombs 100 kg</name><lbs>1763.7</lbs></opt>
+  </weight>
+  <weight>
+      <name>Back Bombrack</name>
+	  <weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[25]"/>
+      <selected>Bombs 100 kg</selected>
+      <opt><name>none</name><lbs>0</lbs></opt>
+      <opt><name>Bombs 100 kg</name><lbs>1763.7</lbs></opt>
+  </weight>
+</PropertyList>
